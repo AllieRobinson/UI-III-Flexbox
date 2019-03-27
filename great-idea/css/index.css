@@ -73,18 +73,18 @@ body {
 a {
 	text-decoration: none;
 	color: darkgrey;
-	font-size: 14px;
+	font-size: 16px;
 }
 
 nav {
-	padding: 40px 0 70px 0;
+	padding: 40px 0 20px 0;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 }
 
 .logo {
-	width: 22%;
+	width: 100%;
 	flex-shrink: 0;
 }
 
@@ -162,4 +162,61 @@ footer {
 
 address {
 	line-height: 1.2;
+}
+
+.services {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.servchild {
+	width: 425px;
+	padding: 0 20px 20px 20px;
+	margin: 20px 0;
+	background-color: #F5F5F5;
+	border: 1px solid black;
+}
+
+.servicesh1 {
+	font-size: 28px;
+	margin-top: 25px;
+}
+
+.learnmore {
+	font-size: 11px;
+	background-color: white;
+	border: 1px solid black;
+	border-radius: 5px;
+	padding: 10px 40px;
+	margin-top: 15px;
+}
+
+.facts {
+	display: flex;
+	justify-content: space-between;
+}
+
+.fullwidthhr {
+	color: black;
+	background-color: black;
+	height: 1px;
+	width: 100%;
+	margin: 20px 0 20px 0;
+	border: none;
+}
+
+.factslist {
+	width: 400px;
+}
+
+ol {
+	line-height: 1.8;
+	list-style-type: square;
+	padding: 0 0 0 18px;
+}
+
+.extrapadding {
+	padding: 40px;
+	margin: 20px;
 }
